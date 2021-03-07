@@ -1,0 +1,397 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+margin:0px;
+padding: 0px;
+}
+body{
+	background-color: #F7F5F0;
+}
+.animation{
+	opacity : 0;
+	visibility: hidden;
+	transition: 1s;
+	transform: translateY(0vw);
+}
+.active{
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+@media screen and (min-width: 440px) {
+
+
+	.rtop,.sp-nav,.spmenu{
+		display: none;
+	}
+	.fixed_header{
+		display:none;
+		width:100vw;
+		height: 5vw;
+		position:fixed;
+		top:0;
+		z-index:999;
+		background:#F7F5F0;
+		line-height: 5vw;
+	}
+
+	.fixed_header div{
+		display: inline-block;
+		margin-left: 2.97vw;
+		vertical-align: top;
+		font-family: "Avenir Next";
+		font-weight: 600;
+		font-size: 1.8vw;
+		letter-spacing: 0.03em;
+		text-align: left;
+		color: #3f709a;
+		transition: all 0.5s;
+	}
+	header nav{
+		margin-top: 2.34vw;
+		margin-left: 3.91vw;
+	}
+
+	header nav div {
+		display: inline-block;
+		margin-right: 2.97vw;
+		vertical-align:top;
+		font-family: "Avenir Next";
+		font-weight: 600;
+		font-size: 1.8vw;
+		letter-spacing: 0.03em;
+		text-align: left;
+		color: #3f709a;
+		z-index: 20;
+		position: relative;
+		transition: all 0.5s;
+	}
+		header nav a div{
+			padding-top: vw;
+		}
+	header nav div:hover,.fixed_header div:hover{
+		color: #193044;
+	}
+
+	header nav div img{
+		margin-right: 1.56vw;
+		width: 10.07vw;
+	}
+
+	.topview{
+		margin-top: -3.3vw;
+		z-index: 10;
+	}
+
+	.topimg{
+		width: 100vw;
+	}
+	.main{
+		float: right;
+		width: 81.64vw;
+	}
+	.topp{
+		color: #3f709a;
+		margin-top: 8.88vw;
+	}
+	.a{
+		font-family: "Avenir Next";
+		font-weight: 700;
+		font-size: 1.17vw;
+		letter-spacing: 0.03em;
+		margin-top: 1.56vw;
+	}
+	.b{
+		font-family: "a-otf-midashi-go-mb31-pr6n";
+		font-weight: normal;
+		font-size: 1.95vw;
+		letter-spacing: 0.05em;
+		margin-top: 1.17vw;
+	}
+	.c{
+		font-family: "a-otf-gothic-bbb-pr6n";
+		font-weight: normal;
+		font-size: 1.17vw;
+		letter-spacing: 0.03em;
+		line-height: 1.95vw;
+		margin-top: 1.95vw;
+		margin-bottom: 12vw;
+	}
+
+	#concept img{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.concept2{
+		width: 81.64vw;
+	}
+	#concept p{
+		float: left;
+
+	}
+	.d{
+		font-family: "a-otf-midashi-go-mb31-pr6n";
+		margin-top: 5vw;
+		font-size: 1.95vw;
+		letter-spacing: 0.05em;
+		line-height: 3.13vw;
+		color: #3f709a;	
+	}
+	.e{
+		font-family: "a-otf-gothic-bbb-pr6n";
+		font-size: 1.17vw;
+		letter-spacing: 0.03em;
+		line-height: 2.11vw;
+		color: #193044;
+		margin-top: 1.56vw;
+		margin-bottom: 14vw;
+	}
+	
+	.menutop2{
+		width: 72.73vw;
+		float: left;
+	}
+	#menu ul{
+		display: flex;
+		flex-wrap: wrap;
+		width: 62.66vw;
+		margin-top: 1.88vw;
+	}
+	li{
+		list-style: none;
+		margin-right: 4.06vw;
+		margin-top: 5vw;
+	}
+	li img{
+		width: 16.56vw;
+	}
+	.eg{
+		font-family: "Avenir Next";
+		font-weight: 600;
+		font-size: 1.56vw;
+		letter-spacing: 0.03em;
+		line-height: 1.56vw;
+		text-align: left;
+		color: #3f709a;
+	}
+	.jp{
+		font-family: "a-otf-gothic-bbb-pr6n";
+		font-size: 0.9vw;
+		letter-spacing: 0.03em;
+		line-height: 3vw;
+		text-align: left;
+		color: #193044;
+	}
+	.and{
+		font-family: "Avenir Next";
+		font-weight: bold;
+		font-size: 1.56vw;
+		letter-spacing: 0.03em;
+		line-height: 2.11vw;
+		color: #3f709a;
+		margin-top: 4.69vw;
+		margin-bottom: 14vw;
+	}
+	
+	.shop1{
+		width: 81.64vw;
+	}
+	.f{
+		font-family: "a-otf-midashi-go-mb31-pr6n";
+		margin-top: 5vw;
+		font-size: 1.95vw;
+		letter-spacing: 0.05em;
+		line-height: 3.13vw;
+		color: #3f709a;
+	}
+	.g{
+		font-family: "a-otf-gothic-bbb-pr6n";
+		margin-top: 1.56vw;
+		font-size: 1.17vw;
+		letter-spacing: 0.03em;
+		line-height: 2.11vw;
+		color: #193044;
+		margin-bottom: 14vw;
+	}
+
+	.g,.f{
+		float: left;
+	}
+
+	.owner2,.owner3{
+		vertical-align: top;
+		display: inline-block;
+		margin-bottom: 14vw;
+	}
+	
+	.owner2{
+		margin-right: 3.2vw;
+		width: 31.09vw;
+	}
+	.owner3{
+		margin-top: 1.95vw;
+	}
+	.i,.j{
+		display: inline-block;
+		margin-top: 3.75vw;
+	}
+	.h{
+		font-family: "A-OTF Midashi Go MB31 Pr6N";
+		font-size: 2.34vw;
+		letter-spacing: 0.05em;
+		line-height: 3.91vw;
+		color: #3f709a;
+	}
+	.i{font-family: "a-otf-gothic-bbb-pr6n";
+		font-size: 1.8vw;
+		letter-spacing: 0.05em;
+		line-height: 2.11vw;
+		color:#193044;
+		font-weight: inherit;
+	}
+	.j{
+		font-family: "Avenir Next";
+		font-weight: 600;
+		font-size: 1.17vw;
+		letter-spacing: 0.05em;
+		line-height: 2.11vw;
+		color: #193044;
+		margin-left:0.39vw;
+	}
+	.k{
+		font-family: "a-otf-gothic-bbb-pr6n";
+		font-size: 1.17vw;
+		letter-spacing: 0.05em;
+		line-height: 2.11vw;
+		color: #193044;
+		margin-top: 0.39vw;
+
+	}
+	
+	.access1{
+		width: 60.69vw;
+}
+	.access3{
+		margin-top: 5vw;
+		width: 35.23vw;
+		float: left;
+	}
+	.accessp{
+		float: left;
+	}
+
+	.l,.n,.m,.o{
+		font-size: 1.17vw;
+		letter-spacing: 0.03em;
+		line-height: 1.56vw;
+		color: #193044;
+	}
+	.l,.n{
+		font-family: "Avenir Next";
+		font-weight: 600;
+	}
+	.m,.o{
+		font-family: "a-otf-gothic-bbb-pr6n";;
+	}
+	.l{
+		margin-top:1.56vw;
+	}
+	.n{
+		margin-top: 0.78vw;
+	}
+	.p{
+		font-family: "Avenir Next";
+		font-weight: bold;
+		font-size: 1.17vw;
+		letter-spacing: 0.03em;
+		color: #3f709a;
+		margin-top: 1.64vw;
+	}
+	.q{
+		font-family: "Avenir Next";
+		font-weight: 600;
+		font-size: 1.17vw;
+		letter-spacing: 0.03em;
+		line-height: 1.56vw;
+		text-align: left;
+		color:#193044;
+		margin-top: 1.56vw;
+	}
+	.r{
+		font-family: "a-otf-gothic-bbb-pr6n";
+		font-size: 1.02vw;
+		letter-spacing: 0.03em;
+		line-height: 1.56vw;
+		color:#193044;
+	}
+	.main,.title{
+		display: inline-block;
+	}
+	.title{
+    width: 18.36vw;
+    text-align: center;
+	position: relative;
+	}
+	.sen{
+		width: 1px;
+		height: 410vw;
+	}
+	.scroll{
+		position: absolute;
+		top: -5vw;
+		left: 4.2vw;
+		width: 10vw;
+		transition: all 0.2s;
+	}
+	.scroll:hover{
+		transform: scale(1.1 ,1.1);
+	}
+	.t1,.t2,.t3,.t4,.t5{
+	width: 7.81vw;
+	position: absolute;
+	left: 5.23vw;
+	}
+	.t1{
+		top: 35vw;
+	}
+	.t2{
+		top: 117.5vw;
+	}
+	.t3{
+		top: 191vw;
+	}
+	.t4{
+		top: 300vw;
+	}
+	.t5{
+		top: 346vw;
+	}
+	footer{
+		padding-top: 4.22vw;
+		padding-bottom: 3vw;
+		background-color: #3f709a;
+		width: 100%;
+		margin-top: 9.77vw;
+	}
+	footer img,footer p{
+		display: inline-block;
+		vertical-align:top;
+	}
+	footer p{
+		font-family: "a-otf-gothic-bbb-pr6n";
+		font-size: 1.17vw;
+		letter-spacing: 0.03em;
+		line-height: 1.8vw;
+		color: #f9f5ea;
+		margin-left: 8.98vw;
+	}
+	.contact1{
+		margin-left: 4.77vw;
+		width: 10.07vw;
+	}
+	.contact2{
+		margin-left: 44.38vw;
+		width: 1.8vw;
+	}
+}
